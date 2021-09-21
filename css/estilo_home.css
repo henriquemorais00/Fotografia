@@ -6,7 +6,7 @@ body{
 }
 
 div#interface{  /* div  */
-    background-color: burlywood (255, 255, 255, 0.9);
+    background-color: burlywood;
     max-width: 1200px;
     width: 100%; /* Largura */
     margin: -8px auto 0px auto; /* Borda superior e Borda inferior - centralizando a interface*/
