@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(169, 169, 216);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div#interface{  /* div  */
+    background-color: burlywood (255, 255, 255, 0.9);
+    max-width: 1200px;
+    width: 100%; /* Largura */
+    margin: -8px auto 0px auto; /* Borda superior e Borda inferior - centralizando a interface*/
+}
+
+.topo{
+    
+    height: 270px;   /* Altura - 130px */
+  
+}
+.menu{
+     
+    width: 700px; /* Largura - 66.5%  */
+    display: block;  /* Transformando em um bloco - desplay: block  */
+    position: absolute; /* Carregando a caixinha */
+    top: 260px; /* Mexendo no menu - 10%*/
+    margin-left: 500px; /* Colocando a margem pro lado - 19.5% */ 
+    z-index: 1; /* Arrumando o menu - colocando em cima das camadas. */
+ 
+}
+
+.menu ul{   /* Mexendo no UL  */
+
+    text-decoration:  none;
+    list-style: none;
+    font-size: 1.1em;  /* 18px */
+    margin: 0px; /* Mexendo na margin - sup direita inf esquerda */
+    padding: 0px; /**/
+
+}   
+
+.menu li{ /* Mexendo no li */
+
+    float: left; /* Colocado as li uma do lado da outra */
+
+}
+
+.menu li a{    /* Mexendo na ancora do li */
+
+    text-decoration: none;
+    color: rgb(92, 91, 91);
+    background: rgb(212, 210, 210);
+    padding: 5px 25px;
+    margin: 0px;
+    display: block;
+}
+
+.menu li a:hover{  /* Trocando a cor da ancora */
+
+    background: #ccc;
+    color: #000;  
+
+}
+
+/* Começando o sub-menu */
+
+.menu li ul{
+
+ display: none;   
+font-size: 1.0em;
+
+}
+
+.menu li:hover ul{
+
+display: block;
+position: relative;
+
+}
+
+.menu li:hover li{  
+
+float: none; /* Quando passa o mouse */
+
+}
+#banner_foto{
+
+    position: relative; 
+    display: inline-block; /* Deixando em linha */
+    width: 100%;
+    height: 350px;
+    margin: 0px;
+    
+}
+    
+#banner_foto img{
+                        /* Posicionando os banners uma em cima da outra */
+    position: absolute;
+    
+}
+
+#foto1, #foto2:hover{
+
+    position: absolute;
+    opacity: 1; /* Opacidade 1 - mostrando a imagem 1 */
+    transition-property: opacity; /**/
+    transition-duration: 1s;  
+    transition-timing-function: linear; 
+
+}
+
+#foto1:hover, #foto2{
+
+    opacity: 0; 
+
+}
+
+img{        
+    max-width: 100%;
+    height: auto;
+
+}
+#lateral{
+   float: left;
+}
+#texto{
+    display: block;
+    width: 40%;
+    float: right;
+    margin: 7px auto;
+}
+
+
+h2 {
+
+color: rgb(41, 39, 39);
+    
+}
+.rodape {   
+    clear: both; 
+    border-top: 2px solid rgb(225, 232, 236)
+}
+
+.rodape p{      
+    text-align: center;
+    font-size: 1.2em;
+}
