@@ -1,6 +1,7 @@
 # Fotografia
 #site do aluno Henrique Morais Teixeira 
-Mini projeto em HTML5, CSS E JAVASCRIPT-
+Mini projeto em HTML5, CSS E JAVASCRIPT- 
+Com o tema sobre um portifolio de um fotografo- É um projeto ficticio - Henrique Morais Teixeira
 ## Autor
 Henrique Morais Teixeira
 ## Construído com
