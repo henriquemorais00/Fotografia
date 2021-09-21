@@ -1,5 +1,5 @@
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fhenriquemorais00.github.io%2FFotografia%2F)
-![W3C validation](https://img.shields.io/github/license/henriquemorais00/Fotografia)
+![GitHub](https://img.shields.io/github/license/henriquemorais00/Fotografia)
 
 # Fotografia
 #site do aluno Henrique Morais Teixeira 
