@@ -5,26 +5,26 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-div#interface{  /* div  */
+div#interface{  
     background-color: burlywood;
     max-width: 1200px;
-    width: 100%; /* Largura */
-    margin: -8px auto 0px auto; /* Borda superior e Borda inferior - centralizando a interface*/
+    width: 100%; 
+    margin: -8px auto 0px auto;
 }
 
 .topo{
     
-    height: 270px;   /* Altura - 130px */
+    height: 270px;  
   
 }
 .menu{
      
-    width: 700px; /* Largura - 66.5%  */
-    display: block;  /* Transformando em um bloco - desplay: block  */
-    position: absolute; /* Carregando a caixinha */
-    top: 260px; /* Mexendo no menu - 10%*/
-    margin-left: 500px; /* Colocando a margem pro lado - 19.5% */ 
-    z-index: 1; /* Arrumando o menu - colocando em cima das camadas. */
+    width: 700px; 
+    display: block;  
+    position: absolute; 
+    top: 260px; 
+    margin-left: 500px;  
+    z-index: 1; 
  
 }
 
