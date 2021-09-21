@@ -1,6 +1,6 @@
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fhenriquemorais00.github.io%2FFotografia%2F)
 ![GitHub](https://img.shields.io/github/license/henriquemorais00/Fotografia)
-![W3C Validation]()
+![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fhenriquemorais00.github.io%2FFotografia)
 
 <p>
     <a href="https://jigsaw.w3.org/css-validator/check/referer">
